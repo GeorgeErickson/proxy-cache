@@ -1,0 +1,2 @@
+#!/usr/bin/env node
+proxy_cache = require('../lib/proxy-cache')

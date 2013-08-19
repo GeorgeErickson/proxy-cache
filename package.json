@@ -1,0 +1,30 @@
+{
+  "name": "http-server",
+  "preferGlobal": true,
+  "version": "0.0.1",
+  "author": "George Erickson <george55@mit.edu>",
+  "description": "A simple proxy-cache for development.",
+  "bin": {
+    "proxy-cache": "./bin/proxy-cache"
+  },
+  "scripts": {},
+  "main": "./lib/proxy-cache",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/georgeerickson/proxy-cache.git"
+  },
+  "keywords": [
+    "dev",
+    "cache",
+    "server"
+  ],
+  "dependencies" : {
+    "optimist":  "*"
+  },
+  "analyze": false,
+  "devDependencies": {},
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10"
+  }
+}
