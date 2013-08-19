@@ -18,11 +18,14 @@
     "cache",
     "server"
   ],
-  "dependencies" : {
-    "optimist":  "*"
+  "dependencies": {
+    "optimist": "*"
   },
   "analyze": false,
-  "devDependencies": {},
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "chai": "~1.7.2"
+  },
   "license": "MIT",
   "engines": {
     "node": ">=0.10"

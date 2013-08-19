@@ -4,7 +4,7 @@ http = require 'http'
 stream = require 'stream'
 util = require 'util'
 argv = require('optimist')
-  .usage('Usage $0')
+  .usage('Usage $0 <host> [<port>]')
   .default('p', 8080)
   .argv
 
