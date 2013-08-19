@@ -48,6 +48,7 @@ class CacheReader extends stream.Readable
 server = http.createServer (req, res) ->
   options = 
     host: argv._[0]
+    port: argv._[1] or 80
     method: req.method
     path: url.parse(req.url).path
     headers: req.headers
@@ -69,3 +70,4 @@ server = http.createServer (req, res) ->
 
 
 server.listen(argv.p)
+console.log "Proxy availible on localhost:#{argv.p}"

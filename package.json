@@ -1,5 +1,5 @@
 {
-  "name": "http-server",
+  "name": "proxy-cache",
   "preferGlobal": true,
   "version": "0.0.1",
   "author": "George Erickson <george55@mit.edu>",
